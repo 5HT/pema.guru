@@ -4,8 +4,8 @@
 
 body {
 	background-image: url("bg.gif");
-    background-color: #6d0223;
-	background-position: center;
+    	background-color: #6d0223;
+	background-position: center top;
 	background-repeat: repeat;
 	margin-left: 0px;
 	margin-top: 0px;
@@ -49,24 +49,24 @@ body,td,th {
 
 
 .navigation {
-   list-style: none;
-   text-align:center;
-   padding-top: 12px;
-   color: #7a0026;
+   	list-style: none;
+   	text-align:center;
+   	padding-top: 12px;
+   	color: #7a0026;
    
 }
 
 .navigation li {
-   margin-right: 3px;
-   margin-left: 3px;
-   position:relative;
-   display:inline-block;
+   	margin-right: 3px;
+   	margin-left: 3px;
+   	position:relative;
+   	display:inline-block;
 }
 
 .navigation li a {
-   color: #7a0026;
-   text-decoration: none;
-   position: relative;
+   	color: #7a0026;
+   	text-decoration: none;
+   	position: relative;
 }
 
 .navigation li a:hover {
