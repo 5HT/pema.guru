@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul {margin-left:30px;} 
+
+body {
+	background-image: url("bg.gif");
+    	background-color: #6d0223;
+	background-position: center top;
+	background-repeat: repeat;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+
+}
+
+body,td,th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+
+.header {
+	width: 980px;
+	height: 356px;
+	margin: auto;
+	padding: 0;
+	background-color: #fff;
+	background-image: url("header.jpg");
+}
+
+.name {
+	width: 417px;
+	height: 110px;
+	margin: 70px 282px 0 282px;
+	padding: 0;
+	position:absolute;
+	background-image:url("bg2.png");
+	background-repeat: repeat;
+	text-align:center;
+}
+
+.nav {
+	width: 980px;
+	height: 46px;
+	margin: auto;
+	padding: 0;
+	background-color: #ffe2cd;
+}
+
+
+.navigation {
+   	list-style: none;
+   	text-align:center;
+   	padding-top: 12px;
+   	color: #7a0026;
+   
+}
+
+.navigation li {
+   	margin-right: 3px;
+   	margin-left: 3px;
+   	position:relative;
+   	display:inline-block;
+}
+
+.navigation li a {
+   	color: #7a0026;
+   	text-decoration: none;
+   	position: relative;
+}
+
+.navigation li a:hover {
+	color: #7a0026;
+	text-decoration:underline;
+}
+
+.content {
+	width: 980px;
+	height: auto;
+	margin: auto;
+	padding: 0;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.sidebar {
+	width: 280px;
+	float:left;
+	background-color:#fff;
+	margin: 0;
+	height: auto;
+}
+
+.central {
+	width: 700px;
+	float:left;
+	background-color:#fff;
+	margin: 0;
+	height: auto;
+	padding-bottom: 50px;
+}
+
+p, h1, h2, h3, h5, h6 {
+	font-family: Verdana, Geneva, sans-serif;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+p {
+	font-size:14px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color:#666;
+}
+
+h1 {
+	font-size:32px;
+	color: #e3c7a2;	
+}
+
+h2 {
+	font-size:24px;
+	color: #7a0026;
+	margin-top: 30px;
+}
+
+h3 {
+	font-size:14px;
+	color:#999;
+	color: #7a0026;
+}
+
+h5 {
+	font-size:14px;
+	color: #fff;
+	margin-top: -10px;	
+}
+
+.chapter {
+	font-size:17px;
+	color:#999;
+	text-decoration:underline;
+	text-transform:none;
+	font-style:normal;
+	margin: 30px 20px 30px 30px;
+}
+
+.schedule {
+	font-size:16px;
+	color:#999;
+	margin: 10px 20px 10px 30px;
+}
+
+.schedule a {
+	text-decoration:none;
+	color: #7a0026;
+	margin-left: 5px;
+}
+
+.schedule a:hover {
+	text-decoration:underline;
+}
+
+.footer {
+	width: 980px;
+	height: 40px;
+	float:left;
+	background-color: #ffe2cd;
+	margin: 0;
+	text-align: center;
+	font-size:14px;
+	color: #7a0026;
+	padding-top: 12px;
+
+}
