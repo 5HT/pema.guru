@@ -1,6 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 
+A { color: #6d0223; }
+A:hover { color: #6d0223;  text-shadow: 0 0 1px; }
+
 ul {margin-left:30px;} 
 
 body {
