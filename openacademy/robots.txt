@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://pema.guru/openacademy/sitemap.xml
+Host: https://pema.guru
